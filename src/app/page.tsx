@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import DarkModeToggle from "../components/DarkModeToggle";
 import About from "@/components/About";
 import Stats from "@/components/Stats";
+import Background from "@/components/Background";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <DarkModeToggle />
       <About />
       <Stats />
+      <Background />
     </div>
   );
 }
