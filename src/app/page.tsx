@@ -4,6 +4,7 @@ import DarkModeToggle from "../components/DarkModeToggle";
 import About from "@/components/About";
 import Stats from "@/components/Stats";
 import Background from "@/components/Background";
+import PersonalGoals from "@/components/PersonalGoals";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Stats />
       <Background />
+      <PersonalGoals />
     </div>
   );
 }
