@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="max-w-[60%] mx-auto py-16 flex flex-col md:flex-row items-start justify-between gap-8">
+    <section id="about" className="max-w-[60%] mx-auto py-16 flex flex-col md:flex-row items-start justify-between gap-8">
       <h2 className="text-7xl font-semibold text-cyan-600 dark:text-cyan-300 flex-1 text-left">
         Frontend Developer
       </h2>
