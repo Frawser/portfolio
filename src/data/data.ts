@@ -28,3 +28,26 @@ export const projects = [
       link: "https://github.com/Frawser/Exam-Project",
     },
   ];
+
+  export const goals = [
+    {
+      title: "Master Fullstack Development",
+      description:
+        "Expand my skills beyond frontend and gain deeper experience with backend frameworks, databases, and cloud deployment.",
+    },
+    {
+      title: "Contribute to Open Source",
+      description:
+        "Collaborate with developers around the world and give back to the community by improving real-world projects.",
+    },
+    {
+      title: "Build Impactful Projects",
+      description:
+        "Create tools and products that solve meaningful problems and offer a great user experience.",
+    },
+    {
+      title: "Keep Learning & Evolving",
+      description:
+        "Stay up-to-date with modern technologies and always strive to write cleaner, smarter, and more efficient code.",
+    },
+  ];
