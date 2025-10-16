@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect } from "react";
 
 export default function DarkModeToggle() {
@@ -32,8 +33,12 @@ export default function DarkModeToggle() {
   return (
     <button
       onClick={toggleDark}
-      className="fixed top-6 right-6 bg-gray-200 dark:bg-gray-800 dark:text-white px-4 py-3 rounded-full transition hover:scale-110 font-bold"
-      aria-label="Toggle dark mode"
+      aria-pressed={dark}
+      aria-label={dark ? "Switch to light mode" : "Switch to dark mode"}
+      className="fixed top-6 right-6 z-50 px-6 py-3
+                 rounded-full border border-cyan-400 text-cyan-600 dark:text-cyan-300
+                 bg-transparent hover:bg-cyan-100 dark:hover:bg-cyan-400/10
+                 transition-all duration-300 font-semibold shadow-sm cursor-pointer"
     >
       {dark ? "Light Mode" : "Dark Mode"}
     </button>
