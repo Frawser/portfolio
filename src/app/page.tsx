@@ -8,6 +8,7 @@ import Projects from "@/components/Projects";
 import DownloadCVButton from "@/components/DownloadCV";
 import PersonalGoals from "@/components/PersonalGoals";
 import ContactForm from "@/components/ContactForm";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <PersonalGoals />
       <Projects />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
