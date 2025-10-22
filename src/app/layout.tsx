@@ -24,12 +24,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning> 
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased  min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
       >
-        <Providers >
-          <div className="fixed inset-0 -z-10 pointer-events-none bg-[radial-gradient(ellipse_at_top_left,rgba(0,255,255,0.15)_0%,transparent_60%),radial-gradient(ellipse_at_bottom_right,rgba(0,200,255,0.1)_0%,transparent_60%)] dark:bg-[radial-gradient(ellipse_at_top_left,rgba(0,255,255,0.08)_0%,transparent_60%),radial-gradient(ellipse_at_bottom_right,rgba(0,200,255,0.05)_0%,transparent_60%)] transition-colors duration-500" />
+        <Providers>
+          <div
+            className="
+              fixed inset-0 -z-10 pointer-events-none 
+              transition-colors duration-500 dark:bg-[radial-gradient(ellipse_at_top_left,rgba(0,255,255,0.08)_0%,transparent_60%),radial-gradient(ellipse_at_bottom_right,rgba(0,200,255,0.05)_0%,transparent_60%)]
+            "
+          />
 
           {children}
         </Providers>
