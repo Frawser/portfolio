@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Mikael - Frontend Developer",
   description: "Mikael Fernandez Olsson, Portfolio.",
 };
 
