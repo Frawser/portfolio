@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💼 Portfolio – Mikael Fernandez Olsson
 
-## Getting Started
+This is my personal **portfolio website** built with **Next.js 15** and **TypeScript**, designed to showcase my projects, experience, and skills as a **Frontend Developer**.
+It’s a fully responsive, theme-aware site with a minimalistic design and smooth transitions — focused on clarity and aesthetics.
 
-First, run the development server:
+---
+
+## 📑 Table of Contents
+
+* 📖 [About the Project](#-about-the-project)
+* ✨ [Features](#-features)
+* 🛠 [Technologies](#-technologies)
+* ⚙️ [Installation](#-installation)
+* 🚀 [Usage](#-usage)
+* 📂 [Project Structure](#-project-structure)
+* 🎨 [Design](#-design)
+* 📚 [Lessons Learned](#-lessons-learned)
+* ✍️ [Contact](#-contact)
+
+---
+
+## 📖 About the Project
+
+This portfolio serves as a digital introduction to who I am and what I do as a developer.
+It presents my latest projects, highlights my technical skills, and provides an easy way to get in touch.
+The site supports **dark and light modes**, with a distinctive **cyan accent theme** throughout for consistency and character.
+
+---
+
+## ✨ Features
+
+* 🌗 Light and dark mode with smooth transitions
+* 💠 Elegant cyan accent color that adapts across themes
+* 🧩 Responsive layout for all devices
+* 🧭 Interactive navigation and footer with social links
+* 📄 Dynamic metadata for SEO
+* 💌 Contact form with validation
+* 🚀 Hosted and optimized for performance on [Vercel](https://vercel.com)
+
+---
+
+## 🛠 Technologies
+
+* [Next.js 15 (App Router)](https://nextjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [next-themes](https://github.com/pacocoursey/next-themes)
+* [React Icons](https://react-icons.github.io/react-icons/)
+* [Vercel](https://vercel.com)
+
+---
+
+## ⚙️ Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/Frawser/portfolio
+
+# Navigate to the project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Visit the homepage to explore projects and sections.
+* Toggle between **light** and **dark** mode.
+* Click project cards to open repositories or live demos.
+* Use footer links to access LinkedIn and GitHub profiles.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+|-- app/
+|   |-- page.tsx              # Home page
+|   |-- layout.tsx            # Root layout and global providers
+|-- components/               # Reusable UI components
+|-- context/                  # Theme provider and context
+|-- public/                   # Static assets (icons, images)
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎨 Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The design emphasizes simplicity, readability, and a strong visual identity.
+It uses **white and dark gray backgrounds** depending on the theme, paired with **cyan highlights** for buttons, links, and icons — maintaining a consistent and recognizable style.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📚 Lessons Learned
+
+* Handling theme switching with `next-themes`
+* Using TailwindCSS to maintain design consistency
+* Managing global layout and metadata in Next.js
+* Deploying Next.js projects on Vercel
+* Optimizing for accessibility and responsiveness
+
+---
+
+## ✍️ Contact
+
+👤 **Mikael Fernandez Olsson**
+🔗 [LinkedIn](https://www.linkedin.com/in/mikael-fernandez-olsson-3822941b3/)
+💻 [GitHub](https://github.com/Frawser)
+
+---
