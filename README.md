@@ -1,7 +1,7 @@
 # 💼 Portfolio – Mikael Fernandez Olsson
 
 This is my personal **portfolio website** built with **Next.js 15** and **TypeScript**, designed to showcase my projects, experience, and skills as a **Frontend Developer**.
-It’s a fully responsive, theme-aware site with a minimalistic design and smooth transitions — focused on clarity and aesthetics.
+It’s a fully responsive, theme-aware site with a minimalistic design and smooth transitions. My focus was on clarity and aesthetics.
 
 ---
 
@@ -24,6 +24,7 @@ It’s a fully responsive, theme-aware site with a minimalistic design and smoot
 This portfolio serves as a digital introduction to who I am and what I do as a developer.
 It presents my latest projects, highlights my technical skills, and provides an easy way to get in touch.
 The site supports **dark and light modes**, with a distinctive **cyan accent theme** throughout for consistency and character.
+Project was made with GitHub Projects to track sprints and goals.
 
 ---
 
