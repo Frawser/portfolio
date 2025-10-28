@@ -34,7 +34,7 @@ The site supports **dark and light modes**, with a distinctive **cyan accent the
 * 🧩 Responsive layout for all devices
 * 🧭 Interactive navigation and footer with social links
 * 📄 Dynamic metadata for SEO
-* 💌 Contact form with validation
+* 💌 Contact form with Formspree.io
 * 🚀 Hosted and optimized for performance on [Vercel](https://vercel.com)
 
 ---
